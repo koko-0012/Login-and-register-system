@@ -5,7 +5,7 @@ username = input("Please Type your Username: ")
 
 password = input("Please Type your Password: ")
 
-for line in open("Reg/users.txt","r").readlines(): #reads the line
+for line in open("users.txt","r").readlines(): #reads the line
 
     login_01 = line.split()#splits the 2 strings
     
