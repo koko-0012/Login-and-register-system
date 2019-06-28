@@ -4,7 +4,7 @@ username = input("Please Type your Username: ")
 
 password = input("Please Type your Password: ")
 
-writefile = open("Reg/users.txt","a")
+writefile = open("users.txt","a")
 
 
 #Format User:Password
